@@ -10,7 +10,7 @@ A script to claim free tech eBooks.
 
 ## Setup (Linux)
 
-1) Download file to /usr/local/bin/
+1) Download file and move it to /usr/local/bin/
 
 2) Open terminal and run `crontab -e`
 
