@@ -14,7 +14,9 @@ A script to claim free tech eBooks.
 
 2) Open terminal and run `crontab -e`
 
-3) Add in the following line at the bottom: `0 20 * * * python3 /usr/local/bin/claim_free_ebook.py`
+3) Add in the following line at the bottom:
+
+`0 20 * * * python3 /usr/local/bin/claim_free_ebook.py`
 
 4) Enjoy your free eBook!
 
