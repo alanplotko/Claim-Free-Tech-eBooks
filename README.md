@@ -4,7 +4,6 @@ A script to claim free tech eBooks.
 
 ## Requirements:
 
-- Be logged in to Packtpub
 - Python 3 is installed
 - Running in a Linux environment
 
@@ -14,9 +13,9 @@ A script to claim free tech eBooks.
 
 2) Open terminal and run `crontab -e`
 
-3) Add in the following line at the bottom and save:
+3) Add in the following line, replacing USERNAME and PASSWORD with your credentials at the bottom and save:
 
-`0 20 * * * python3 /usr/local/bin/claim_free_ebook.py`
+`30 19 * * * python3 /usr/local/bin/claim_free_ebook.py USERNAME PASSWORD`
 
 4) Enjoy your free eBook!
 
