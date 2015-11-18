@@ -18,8 +18,8 @@ f.write(timestamp)
 # Authentication
 loginUrl = "https://www.packtpub.com/"
 data = {
-	"email": str(sys.argv[0]),
-	"password": str(sys.argv[1]),
+	"email": sys.argv[1],
+	"password": sys.argv[2],
 	"op": "Login",
 	"form_id": "packt_user_login_form"
 }
@@ -43,7 +43,7 @@ if req.status_code == 200:
 			f.write(" found code!\n")
 			url = "https://www.packtpub.com" + freeBookCode.group(0)
 			bookClaimReq = session.get(url)
-			print(bookClaimReq.text)
+
 			f.write("Claiming free ebook...")
 			if bookClaimReq.status_code == 200 or bookClaimReq.status_code == 302:
 				f.write(" success! Free ebook claimed!")
