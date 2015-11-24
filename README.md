@@ -2,7 +2,7 @@
 
 ## About
 
-This is a script to claim free tech eBooks from [PacktPub](https://www.packtpub.com/). PacktPub offers its users a free tech eBook each day. For some of us who may forget occasionally that a free eBook awaits them, you can run this script as a cron job. The computer running this must be running at the time. If you have a Raspberry Pi or server running at all times, you may want to place the script there. The script works for a Linux environment. I make no promises about running it elsewhere.
+This is a script to claim free tech eBooks from [PacktPub](https://www.packtpub.com/). PacktPub offers its users a free tech eBook each day. For some of us who may forget occasionally that a free eBook awaits them, you can run this script as a cron job. If you have a Raspberry Pi or server running at all times, you may want to place the script there and execute it daily. The script works for a Linux environment. I make no promises about running it elsewhere. I have no problems running it in Ubuntu 15.10. If it doesn't work on your end, feel free to open up an issue! You can also fork the script and make a pull request.
 
 ## Requirements:
 
